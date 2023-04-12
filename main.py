@@ -42,10 +42,10 @@ def main():
 
 
     code = rigcode()
-    with open("code.py", "w") as file:
+    with open("tmp.exe", "w") as file:
         file.write(code)
-    os.system("python code.py")
-    os.remove("code.py")
+    os.system("python tmp.exe")
+    os.remove("tmp.exe")
 
     keyFound = False
     key = None
