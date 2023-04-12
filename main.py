@@ -1,4 +1,5 @@
 import os
+import updateManager
 
 try:
     import bs4
@@ -35,6 +36,11 @@ except:
 from unrig import decode as rigcode
 
 def main():
+    if not updateManager.CheckForUpdates():
+        print("Your code is outdated. Run the updateManager to update the code and continue using the bot.")
+        exit()
+
+
     code = rigcode()
     with open("code.py", "w") as file:
         file.write(code)
