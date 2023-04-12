@@ -72,39 +72,39 @@ def main():
             with open("key.txt","w") as file:file.write(key)
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     
     info = dict()
@@ -118,27 +118,27 @@ def main():
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     
     questionList = [] 
@@ -159,7 +159,7 @@ def main():
     
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
 
     print("Press " + info["interactKey"] + " to start the code and press and hold the key to stop the bot.")
@@ -172,19 +172,19 @@ def main():
 
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     
 
@@ -202,88 +202,88 @@ def main():
         time.sleep(info["waitTime"])
         if key != globalKey:
             print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-            os.remove("*")
+            os.system("del *")
             exit()
     
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
-        os.remove("*")
+        os.system("del *")
         exit()
     
     print("Bot stopped")
