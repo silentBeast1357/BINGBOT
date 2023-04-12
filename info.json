@@ -1,0 +1,15 @@
+{
+    "phone":{
+        "x":53,
+        "y":234,
+        "file":"phode.txt"
+    },
+    "pc":{
+        "x":413,
+        "y":146,
+        "file":"pcode.txt"
+    },
+    "startingTime":3,
+    "waitTime":3,
+    "interactKey":";"
+}
