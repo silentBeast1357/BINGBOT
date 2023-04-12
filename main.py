@@ -149,6 +149,7 @@ def main():
             code = file.read()
         questionList = code.split("\n")
         position = info["pc"]["x"],info["pc"]["y"]
+    
     if mode == "2":
         code = None
         with open(info["phone"]["file"]) as file:
