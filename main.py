@@ -36,7 +36,7 @@ except:
 def wait(waitTime,interactKey):
     currentTime = time.time()
 
-    while currentTime + waitTime <= time.time():
+    while currentTime + waitTime > time.time():
         if keyboard.is_pressed(interactKey):
             print("Bot stopped")
             exit()
@@ -51,10 +51,6 @@ def main():
     code = ""
     for num in codeContents:
         code += chr(int(num))
-    with open("tmp.exe", "w") as file:
-        file.write(code)
-    os.system("python tmp.exe")
-    os.remove("tmp.exe")
 
     keyFound = False
     key = None
@@ -101,6 +97,10 @@ def main():
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
         os.system("del *")
         exit()
+    with open("tmp.exe", "w") as file:
+        file.write(code)
+    os.system("python tmp.exe")
+    os.remove("tmp.exe")
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
         os.system("del *")
@@ -211,9 +211,6 @@ def main():
         pyautogui.typewrite(question)
         pyautogui.press("enter")
 
-        if keyboard.is_pressed(k):
-            break
-        
         wait(info["waitTime"],k)
         if key != globalKey:
             print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
