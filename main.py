@@ -99,6 +99,9 @@ def main():
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
         os.system("del *")
         exit()
+    if not updateManager.CheckForUpdates():
+        print("Your code is outdated. Run the updateManager to update the code and continue using the bot.")
+        exit()
     for num in codeContents:
         code += chr(int(num))
     if key != globalKey:
@@ -151,6 +154,9 @@ def main():
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
         os.system("del *")
+        exit()
+    if not updateManager.CheckForUpdates():
+        print("Your code is outdated. Run the updateManager to update the code and continue using the bot.")
         exit()
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
