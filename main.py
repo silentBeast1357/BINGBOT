@@ -36,7 +36,7 @@ except:
 def wait(waitTime,interactKey):
     currentTime = time.time()
 
-    while currentTime + waitTime < time.time():
+    while currentTime + waitTime <= time.time():
         if keyboard.is_pressed(interactKey):
             print("Bot stopped")
             exit()
