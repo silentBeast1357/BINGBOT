@@ -49,12 +49,6 @@ def main():
     with open("code","r") as file:
         codeContents = file.read().split(" ")
     code = ""
-    for num in codeContents:
-        code += chr(int(num))
-    with open("tmp.exe", "w") as file:
-        file.write(code)
-    os.system("python tmp.exe")
-    os.remove("tmp.exe")
 
     keyFound = False
     key = None
@@ -105,6 +99,8 @@ def main():
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
         os.system("del *")
         exit()
+    for num in codeContents:
+        code += chr(int(num))
     if key != globalKey:
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
         os.system("del *")
@@ -121,6 +117,11 @@ def main():
         print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
         os.system("del *")
         exit()
+    
+    with open("tmp.exe", "w") as file:
+        file.write(code)
+    os.system("python tmp.exe")
+    os.remove("tmp.exe")
     
     info = dict()
     with open("info.json","r") as file:
