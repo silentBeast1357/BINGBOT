@@ -11,9 +11,9 @@ def CheckForUpdates():
     global_code = soup.find("p").get_text().strip()
 
     with open("main.py","r") as file:
-        local_main = file.read()
+        local_main = file.read().strip()
     with open("code","r") as file:
-        local_code = file.read()
+        local_code = file.read().strip()
     
     return local_main == global_main and local_code == global_code
 
