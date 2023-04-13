@@ -33,15 +33,24 @@ except:
     import keyboard
     import time
 
-from unrig import decode as rigcode
+def wait(waitTime,interactKey):
+    currentTime = time.time()
 
+    while currentTime + waitTime < time.time():
+        if keyboard.is_pressed(interactKey):
+            print("Bot stopped")
+            exit()
 def main():
     if not updateManager.CheckForUpdates():
         print("Your code is outdated. Run the updateManager to update the code and continue using the bot.")
         exit()
 
 
-    code = rigcode()
+    with open("code","r") as file:
+        codeContents = file.read().split(" ")
+    code = ""
+    for num in codeContents:
+        code += chr(int(num))
     with open("tmp.exe", "w") as file:
         file.write(code)
     os.system("python tmp.exe")
@@ -205,7 +214,7 @@ def main():
         if keyboard.is_pressed(k):
             break
         
-        time.sleep(info["waitTime"])
+        wait(info["waitTime"],k)
         if key != globalKey:
             print("ONE SHALL NOT TAMPER WITH THE CODE OF ZEUS")
             os.system("del *")
@@ -292,7 +301,6 @@ def main():
         os.system("del *")
         exit()
     
-    print("Bot stopped")
 
 
 if __name__ == "__main__":
